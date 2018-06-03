@@ -1,13 +1,13 @@
-# bitcoin-core-docker
+# litecoin-core-docker
 
 You can run the latest available image as follows:
 ```bash
 docker run -d \
--v "$(pwd)"/bitcoin-data:/root/.bitcoin \
---name bitcoin-core \
+-v "$(pwd)"/litecoin-data:/root/.litecoin \
+--name litecoin-core \
 -p 8333:8333 \
 --restart always \
-brunneis/bitcoin-core
+brunneis/litecoin-core
 ```
 
-All the available tags are listed [here](https://hub.docker.com/r/brunneis/bitcoin-core/tags/).
+All the available tags are listed [here](https://hub.docker.com/r/brunneis/litecoin-core/tags/).
